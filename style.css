@@ -1,0 +1,151 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.logo-image {
+    width: 70px;
+    margin: 20px;
+}
+
+.wrapper {
+    display: block;
+    overflow: hidden;
+    background-color: #e7d5d5; /*mijenjaš boju za pozadinu navbara*/
+    min-height: 25px;
+}
+
+.inline {
+    display: inline-block;
+    float: left;
+    
+}
+
+.inline a {
+    text-decoration: none;
+    color: black;
+}
+
+.omotaj {
+    margin-top: 39px;
+   line-height: 30px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.dropdown {
+    overflow: hidden;
+    
+}
+
+.dropbtn {
+    border: none;
+    outline: none;
+    background-color: white;
+    text-transform: uppercase; /*poveća sav tekst*/
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-transform: none; /*da mi ostanu mala slova u dropu*/
+  
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    line-height: 35px; /*razmak između reda u dropu*/
+    padding: 3px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(246, 245, 246);
+}
+
+.middle {
+    min-height: 600px;
+    text-align: center;
+    background: url(main.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.middle h1 {
+    font-size: 55px;
+    color: rgb(248, 244, 238);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.container {
+    max-width: 98%;
+    margin: auto;
+    overflow: hidden; /* označava ako sadržaj prelazi zadanu vrijednost
+}
+
+header {
+    background: #ffffff;
+    color: black;
+    padding-top: 20px;
+    min-height: 50px;
+}
+
+.logo-image {
+    width: 70px;
+    padding: 0px;
+    margin-right: 30px;
+}
+
+header li {
+    float: left;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+
+header #top {
+    float: left;
+}
+
+header nav li {
+    margin-top: 10px;
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
